@@ -38,5 +38,14 @@ public class Matrices01_Intro {
         System.out.println("Número 6: " + num6);
         System.out.println("Número 7: " + num7);
         System.out.println("Número 8: " + num8);
+
+        // IMPRIMIR CON CICLO FOR
+        System.out.println("=================== IMPRIMIR CON CICLO FOR ======================");
+        for (int i = 0; i < fila; i++) {
+            for (int j = 0; j < columna; j++) {
+                System.out.print("fila [" + i + "] columna [" + j + "] => " + numeros[i][j] + "\t");
+            }
+            System.out.println();
+        }
     }
 }
