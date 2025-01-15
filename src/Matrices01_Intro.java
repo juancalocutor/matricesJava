@@ -1,7 +1,8 @@
 public class Matrices01_Intro {
     public static void main(String[] args) throws Exception {
         // EJEMPLO DE MATRIZ DESDE CERO
-        int [][] numeros = new int[2][4];
+        int fila = 2, columna = 4;
+        int [][] numeros = new int[fila][columna];
 
         numeros[0][0] = 1;
         numeros[0][1] = 2;
@@ -12,10 +13,10 @@ public class Matrices01_Intro {
         numeros[1][2] = 13;
         numeros[1][3] = 14;
 
-        System.out.println("Número de filas: " + numeros.length);
-        System.out.println("Número de columnas: " + numeros[0].length);
+        System.out.println("Número de filas: " + fila);
+        System.out.println("Número de columnas: " + columna);
         System.out.println("Primer elemento de la matriz: " + numeros[0][0]);
-        System.out.println("Último elemento de la matriz: " + numeros[numeros.length - 1][numeros[0].length -1]);
+        System.out.println("Último elemento de la matriz: " + numeros[fila - 1][columna -1]);
 
         System.out.println(" ");
         // RECUPERAR VALORES DE UNA MATRIZ
