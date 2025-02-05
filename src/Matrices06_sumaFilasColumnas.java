@@ -6,11 +6,13 @@ public class Matrices06_sumaFilasColumnas {
         int fila, columna, sumaFila = 0, sumaColumna = 0, sumFil, sumCol;
 
         Scanner console = new Scanner(System.in);
+        System.out.println("===== LAS FILAS Y COLUMNAS DEBEN COINCIDER =====");
         System.out.println("Indique las filas y columnas de la matriz\n");
-        System.out.print("Filas: ");
+        System.out.print("Filas y columnas: ");
         fila = console.nextInt();
-        System.out.print("Columnas: ");
-        columna = console.nextInt();
+        columna = fila;
+        // System.out.print("Columnas: ");
+        // columna = console.nextInt();
 
         System.out.println();
 
